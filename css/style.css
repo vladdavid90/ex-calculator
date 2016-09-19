@@ -1,0 +1,79 @@
+body {
+	background-color: #eee;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 2px;
+}
+
+.calculator {
+	width: 360px;
+	height:	450px;
+	margin: 0 auto;
+	background-color: #982727;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+span, .clear {
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	line-height: 80px;
+	background-color: #ccc;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Shadows Into Light', cursive;
+	
+	font-size:40px;
+	margin:5px;
+	float: left;
+}
+.clear {
+	background-color: #fcc;
+}
+
+#ecran{
+	height: 58px;
+	width: 238px;
+	margin: 5px;
+	padding: 10px;
+	float: left;
+	border: 1px solid #111;
+	border-radius: 8px;
+	background-color: #333;
+	color: #eee;
+	text-align: right;
+	font-family: 'Shadows Into Light', cursive;
+	
+	font-size:40px;
+	line-height: 48px;
+
+}
+
+.equal {
+	width: 170px;
+	background-color: #cfc;
+}
+span:hover, .clear:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+span:active, .clear:active {
+	background-color: #555;
+
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+
+}

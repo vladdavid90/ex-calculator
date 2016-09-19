@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>3. Calculator</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onkeypress="key(event);">
+<h1>3. Calculator</h1>	
+<div class="calculator">
+	<!--ecran si buton de reset-->	
+	<div class="top">
+		<span class="clear noselect" onclick="clearC();">C</span>
+		<div id="ecran">...</div>
+	</div>
+	<!--cifre si operatori-->
+	<div class="keys  noselect">
+		<span onclick="add(7);" >7</span>
+		<span onclick="add(8);" >8</span>
+		<span onclick="add(9);" >9</span>
+		<span class="operator" onclick="add(op[0])" >+</span>
+		<span onclick="add(4);" >4</span>
+		<span onclick="add(5);" >5</span>
+		<span onclick="add(6);" >6</span>
+		<span class="operator" onclick="add(op[1])" >-</span>
+		<span onclick="add(1);" >1</span>
+		<span onclick="add(2);" >2</span>
+		<span onclick="add(3);" >3</span>
+		<span class="operator" onclick="add(op[2])" >*</span>
+		<span onclick="add(0);" >0</span>
+		<span class="equal" onclick="add(op[4])">=</span>
+		<span class="operator" onclick="add(op[3])">:</span>
+	</div>
+</div>
+
+</script>
+<script src="js/javascript.js"></script>
+</body>
+</html>
